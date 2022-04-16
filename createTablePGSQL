@@ -1,5 +1,5 @@
 CREATE TABLE bikesharedata2 (  
-ride_id varchar(16) PRIMARY KEY NOT NULL,  
+ride_id varchar(16) PRIMARY KEY NOT NULL UNIQUE,  
 rideable_type varchar(16),    
 started_at timestamp,  
 ended_at timestamp,  
