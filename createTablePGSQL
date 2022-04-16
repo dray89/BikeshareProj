@@ -1,0 +1,14 @@
+CREATE TABLE bikesharedata2 (  
+ride_id varchar(16),  
+rideable_type varchar(16),    
+started_at timestamp,  
+ended_at timestamp,  
+start_station_name varchar(50),  
+start_station_id  REAL,  
+end_station_name  varchar(50),  
+end_station_id REAL,  
+start_lat REAL,  
+start_lng REAL,  
+end_lat   REAL ,  
+end_lng   REAL,  
+member_casual VARCHAR(15));
