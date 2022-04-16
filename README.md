@@ -1,3 +1,3 @@
 # BikeshareProj
  Ran PostgreSQL Queries on DC Bikeshare Data.
- Ran MS SQL Server queries that allowed me to practice declaring variables and date manipulation on similar data through a Data Camp course. I put this in a jupyter notebook in order to present it in an organized way with notes; however, I ran this code externally.
+ Ran MS SQL Server and MySQL queries that allowed me to practice declaring variables, manipulating dates, and creating/altering/deleting stored procedures on similar bikshare data and other data. I put this in a jupyter notebook in order to present it in an organized way with notes; however, I ran this code externally.
