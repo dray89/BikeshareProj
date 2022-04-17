@@ -1,0 +1,8 @@
+create or replace function total()
+returns integer as $total$
+declare total integer;
+begin
+select count(ride_id) into total from public.bikeshare3;
+return total;
+end;
+$total$ language plpgsql;
