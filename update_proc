@@ -1,6 +1,3 @@
--- FUNCTION: public.update_duration()
-
--- DROP FUNCTION IF EXISTS public.update_duration();
 
 CREATE OR REPLACE PROCEDURE public.update_proc(
 	)
@@ -12,6 +9,3 @@ AS $BODY$
     UPDATE bikeshare3 SET long_change = end_lng - start_lng;
 
 $BODY$;
-
-ALTER FUNCTION public.update_duration()
-    OWNER TO postgres;
