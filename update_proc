@@ -1,0 +1,17 @@
+-- FUNCTION: public.update_duration()
+
+-- DROP FUNCTION IF EXISTS public.update_duration();
+
+CREATE OR REPLACE PROCEDURE public.update_proc(
+	)
+LANGUAGE sql
+AS $BODY$
+
+    UPDATE bikeshare3 SET duration = CAST(ended_at AS TIMESTAMP) - CAST(started_at AS TIMESTAMP);
+    UPDATE bikeshare3 SET lat_change = end_lat - start_lat;
+    UPDATE bikeshare3 SET long_change = end_lng - start_lng;
+
+$BODY$;
+
+ALTER FUNCTION public.update_duration()
+    OWNER TO postgres;
