@@ -1,3 +1,2 @@
-# BikeshareProj
- Ran PostgreSQL Queries on DC Bikeshare Data using psycopg2 in Python.
- Ran MS SQL Server and MySQL queries that allowed me to practice declaring variables, manipulating dates, and creating/altering/deleting stored procedures on similar bikshare data and other data. I put this in a jupyter notebook named MSQLPRocfunc.ipynb in order to present it in an organized way with notes; however, I ran this code externally.
+# BikeshareProj  
+I used SQL to run PostgreSQL queries. I created and executed custom PostgreSQL functions and stored procedures against DC Bike Share data.  I also followed along with a tutorial using similar bike share data using MS SQL Server. In this tutorial, I practiced declaring variables and manipulating dates. Finally, I practiced stored procedures in both MS SQL Server and MySQL.
