@@ -1,5 +1,0 @@
-CREATE PROCEDURE TEST1()
-LANGUAGE SQL 
-AS $$
-	UPDATE bikeshare3 SET lat_change = end_lat - start_lat;
-$$;
